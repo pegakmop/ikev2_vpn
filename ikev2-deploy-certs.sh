@@ -99,7 +99,7 @@ sed -i "s/@server_name_or_ip/${IP}/g" /etc/ipsec.conf
 cat << EOF > /etc/ipsec.secrets
 
 server_name_or_ip : RSA "/etc/ipsec.d/private/vpn-server-key.pem"
-your_username %any% : EAP "your_password"
+pegakmop %any% : EAP "pegakmop"
 EOF
 
 sed -i "s/server_name_or_ip/${IP}/g" /etc/ipsec.secrets
