@@ -146,6 +146,6 @@ echo "net.ipv4.ip_no_pmtu_disc = 1" >> /etc/sysctl.conf
 echo ""
 echo "Looks like the script has finished successfully."
 echo "The system will now be re-booted and your VPN server should be up and running right after that."
-echo ""
+echo "перезагрузи сервер командой reboot"
 
-reboot
+#reboot
