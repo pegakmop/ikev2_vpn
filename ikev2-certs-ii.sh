@@ -101,7 +101,7 @@ sed -i "s/@server_name_or_ip/${IP}/g" /etc/ipsec.conf
 # Добавляем секреты в /etc/ipsec.secrets
 cat << EOF > /etc/ipsec.secrets
 ${IP} : RSA "/etc/ipsec.d/private/vpn-server-key.pem"
-your_username %any% : EAP "your_password"
+pegakmop %any% : EAP "vpnconfiguration"
 EOF
 
 #=========== 
