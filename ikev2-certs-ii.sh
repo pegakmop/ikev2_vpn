@@ -92,7 +92,7 @@ EOF
 # Создание /etc/ipsec.secrets
 cat << EOF > /etc/ipsec.secrets
 ${IP} : RSA "/etc/ipsec.d/private/vpn-server-key.pem"
-your_username %any% : EAP "your_password"
+pegakmop %any% : EAP "pegakmop"
 EOF
 
 #=========== 
